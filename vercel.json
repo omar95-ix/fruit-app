@@ -13,38 +13,10 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/api/auth/(.*)",
-      "dest": "/api/auth/$1"
-    },
-    {
-      "src": "/api/products/(.*)",
-      "dest": "/api/products/$1"
-    },
-    {
-      "src": "/api/attributes/(.*)",
-      "dest": "/api/attributes/$1"
-    },
-    {
-      "src": "/api/upload/(.*)",
-      "dest": "/api/upload/$1"
-    },
+"routes": [
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"
-    },
-    {
-      "src": "/static/(.*)",
-      "dest": "/client/build/static/$1"
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "/client/build/favicon.ico"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/client/build/manifest.json"
     },
     {
       "src": "/(.*)",
