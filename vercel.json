@@ -55,10 +55,5 @@
     "MONGODB_URI": "MONGODB_URI",
     "JWT_SECRET": "JWT_SECRET",
     "JWT_EXPIRE": "JWT_EXPIRE"
-  },
-  "functions": {
-    "api/**/*.js": {
-      "maxDuration": 30
-    }
   }
 }
